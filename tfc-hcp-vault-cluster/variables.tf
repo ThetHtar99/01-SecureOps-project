@@ -1,13 +1,13 @@
 variable "hvn_id"{
     description = "The ID of the HCP HVN"
     type = string
-    default = "aws-hp-vault-hvn"
+    default = "aws-hcp-vault-hvn"
 }
 
 variable "cluster_id"{
     description = "The ID of the HCP Vault cluster"
     type = string
-    default = "aws-hp-vault-cluster"
+    default = "aws-hcp-vault-cluster"
 }
 
 variable "region"{
